@@ -31,13 +31,13 @@ export const serverConfig = {
   // ---- Kontak untuk pembelian (dipakai tombol "Order via WhatsApp/Discord") ----
   // Nomor WhatsApp format internasional, TANPA tanda "+" dan tanpa "0" di depan.
   // Contoh nomor 0812-3456-7890 ditulis: "6281234567890"
-  whatsappNumber: "6281234567890",
+  whatsappNumber: "628819048602",
   // Username/invite Discord untuk kontak pembelian (bisa link invite server juga).
   discordContactUrl: "https://discord.gg/yqvG4pRwc",
   // Link invite GROUP WhatsApp komunitas (beda dari whatsappNumber di atas yang untuk
   // chat pribadi). Dipakai tombol "Join WhatsApp Group" di Navbar. Kosongkan ("") untuk
   // sembunyikan tombolnya kalau belum punya grup WhatsApp.
-  whatsappGroupUrl: "https://chat.whatsapp.com/xxxxxxxxxxxxxxxxxxxxxx",
+  whatsappGroupUrl: "https://chat.whatsapp.com/CqWfNLzXZHm1MEifyy0DRa?s=cl&p=a&mlu=0",
 
   // ---- QRIS pembayaran (halaman checkout Store) ----
   // Gambar QRIS ditaruh di public/assets/payment/qris.jpg (lihat README.txt di
@@ -938,7 +938,7 @@ export const keys = [{
   },
   {
     id: "key-abnormal",
-    name: "5x Abnormal Crate Key",
+    name: "Abnormal Crate Key",
     quantity: 5,
     category: "keys",
     price: 10000,
