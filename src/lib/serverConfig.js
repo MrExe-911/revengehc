@@ -149,7 +149,7 @@ export const buildDiscordOrderUrl = () => serverConfig.discordContactUrl;
 // internasional tanpa "+", contoh "6281234567890"). Kalau tidak diisi, otomatis
 // pakai nomor WhatsApp umum server (serverConfig.whatsappNumber).
 export const buildStaffWhatsAppUrl = (staffMember) => {
-  const number = staffMember?.socials?.whatsapp || serverConfig.whatsappNumber;
+  const number = staffMember ? .socials ? .whatsapp || serverConfig.whatsappNumber;
   const text = `Halo ${staffMember?.displayName || ""}, saya mau tanya soal ${serverConfig.name}.`;
   return `https://wa.me/${number}?text=${encodeURIComponent(text)}`;
 };
@@ -849,10 +849,6 @@ export const ranks = [{
         label: "Unlimited Sethome"
       },
       {
-        icon: "ShieldPlus",
-        label: "TP Access + Godmode"
-      },
-      {
         icon: "Ghost",
         label: "Vanish"
       },
@@ -1416,19 +1412,31 @@ export const formatEventDate = (isoDate) => {
   if (!isoDate) return "";
   const parsed = new Date(`${isoDate}T00:00:00`);
   if (Number.isNaN(parsed.getTime())) return isoDate; // fallback kalau format tidak dikenali
-  return new Intl.DateTimeFormat("id-ID", { day: "numeric", month: "long", year: "numeric" }).format(parsed);
+  return new Intl.DateTimeFormat("id-ID", {
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+  }).format(parsed);
 };
 
 // Link pendaftaran event — bisa diatur per-event ("registerVia": "discord" | "whatsapp")
 // lewat field di data event, atau pakai default global di bawah kalau event tidak
 // menentukan sendiri. Isi "registerWhatsappText" per-event untuk pesan WA custom.
 export const getEventRegisterLink = (event) => {
-  const via = event?.registerVia || defaultEventRegisterVia || "discord";
+  const via = event ? .registerVia || defaultEventRegisterVia || "discord";
   if (via === "whatsapp") {
-    const text = event?.registerWhatsappText || `Halo, saya mau daftar event "${event?.title}" di ${serverConfig.name}.`;
-    return { via: "whatsapp", url: `https://wa.me/${serverConfig.whatsappNumber}?text=${encodeURIComponent(text)}`, label: "Daftar via WhatsApp" };
+    const text = event ? .registerWhatsappText || `Halo, saya mau daftar event "${event?.title}" di ${serverConfig.name}.`;
+    return {
+      via: "whatsapp",
+      url: `https://wa.me/${serverConfig.whatsappNumber}?text=${encodeURIComponent(text)}`,
+      label: "Daftar via WhatsApp"
+    };
   }
-  return { via: "discord", url: serverConfig.discordUrl, label: "Daftar via Discord" };
+  return {
+    via: "discord",
+    url: serverConfig.discordUrl,
+    label: "Daftar via Discord"
+  };
 };
 export const formatRupiah = (n) => "Rp " + Number(n).toLocaleString("id-ID");
 
