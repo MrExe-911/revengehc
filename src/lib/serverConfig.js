@@ -1423,9 +1423,9 @@ export const formatEventDate = (isoDate) => {
 // lewat field di data event, atau pakai default global di bawah kalau event tidak
 // menentukan sendiri. Isi "registerWhatsappText" per-event untuk pesan WA custom.
 export const getEventRegisterLink = (event) => {
-  const via = event ? .registerVia || defaultEventRegisterVia || "discord";
+  const via = event?.registerVia || defaultEventRegisterVia;
   if (via === "whatsapp") {
-    const text = event ? .registerWhatsappText || `Halo, saya mau daftar event "${event?.title}" di ${serverConfig.name}.`;
+    const text = event?.registerWhatsappText || `Halo, saya mau daftar event "${event?.title}" di ${serverConfig.name}.`;
     return {
       via: "whatsapp",
       url: `https://wa.me/${serverConfig.whatsappNumber}?text=${encodeURIComponent(text)}`,
