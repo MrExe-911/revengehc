@@ -149,7 +149,7 @@ export const buildDiscordOrderUrl = () => serverConfig.discordContactUrl;
 // internasional tanpa "+", contoh "6281234567890"). Kalau tidak diisi, otomatis
 // pakai nomor WhatsApp umum server (serverConfig.whatsappNumber).
 export const buildStaffWhatsAppUrl = (staffMember) => {
-  const number = staffMember ? .socials ? .whatsapp || serverConfig.whatsappNumber;
+  const number = staffMember ?.socials ?.whatsapp || serverConfig.whatsappNumber;
   const text = `Halo ${staffMember?.displayName || ""}, saya mau tanya soal ${serverConfig.name}.`;
   return `https://wa.me/${number}?text=${encodeURIComponent(text)}`;
 };
@@ -823,7 +823,7 @@ export const ranks = [{
     name: "Sovereign",
     colorKey: "gold",
     category: "GODLIKE",
-    price: 350000,
+    price: 500000,
     discount: 0,
     icon: "Gem",
     description: "Tahta tertinggi Revenge Hardcore. Sovereign adalah rank paling eksklusif — nickname berwarna emas, kekuatan hampir tanpa batas, dan hak istimewa yang tidak dimiliki rank manapun di bawahnya.",
