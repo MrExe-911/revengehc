@@ -1,0 +1,25 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1130"/>
+      <stop offset="1" stop-color="#1B1042"/>
+    </linearGradient>
+    <linearGradient id="crystal1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8657F2"/>
+      <stop offset="1" stop-color="#00E1FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg1)"/>
+  <g opacity="0.08">
+    <path d="M0 0h800v450H0z" fill="none"/>
+    <g stroke="#8657F2" stroke-width="1">
+      <path d="M0 90h800M0 180h800M0 270h800M0 360h800"/>
+      <path d="M133 0v450M266 0v450M400 0v450M533 0v450M666 0v450"/>
+    </g>
+  </g>
+  <polygon points="330,130 380,220 330,340 260,300 250,190" fill="url(#crystal1)" opacity="0.85"/>
+  <polygon points="470,90 520,180 500,330 420,300 410,160" fill="url(#crystal1)" opacity="0.6"/>
+  <polygon points="580,200 615,260 590,360 530,340 530,240" fill="url(#crystal1)" opacity="0.4"/>
+  <circle cx="330" cy="220" r="130" fill="#00E1FF" opacity="0.06"/>
+  <circle cx="500" cy="240" r="90" fill="#8657F2" opacity="0.08"/>
+</svg>

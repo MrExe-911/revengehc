@@ -1,0 +1,27 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#170A14"/>
+      <stop offset="1" stop-color="#2A0E1C"/>
+    </linearGradient>
+    <radialGradient id="glow4" cx="0.5" cy="0.55" r="0.6">
+      <stop offset="0" stop-color="#EF4444" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#EF4444" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg4)"/>
+  <ellipse cx="400" cy="260" rx="360" ry="140" fill="url(#glow4)"/>
+  <g stroke="#F59E0B" stroke-width="3" opacity="0.5">
+    <ellipse cx="400" cy="330" rx="300" ry="55" fill="none"/>
+    <ellipse cx="400" cy="330" rx="220" ry="38" fill="none"/>
+  </g>
+  <g fill="#F59E0B">
+    <polygon points="380,120 420,120 410,260 390,260"/>
+    <polygon points="370,110 430,110 400,130"/>
+    <rect x="392" y="255" width="16" height="40" rx="3" fill="#8657F2"/>
+  </g>
+  <g fill="#00E1FF" opacity="0.85">
+    <polygon points="280,180 300,180 294,270 286,270"/>
+    <polygon points="500,180 520,180 514,270 506,270"/>
+  </g>
+</svg>

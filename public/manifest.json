@@ -1,0 +1,17 @@
+{
+  "name": "Revenge Hardcore — Minecraft Server",
+  "short_name": "Revenge Hardcore",
+  "description": "Server survival Minecraft Revenge Hardcore — bertahan hidup, bangun tempat perlindungan, dan taklukkan dunia bersama komunitas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050A19",
+  "theme_color": "#050A19",
+  "icons": [
+    {
+      "src": "/assets/logo/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

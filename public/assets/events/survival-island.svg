@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#083344"/>
+      <stop offset="0.55" stop-color="#0E4B4F"/>
+      <stop offset="1" stop-color="#0B3B2E"/>
+    </linearGradient>
+    <linearGradient id="water5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00E1FF"/>
+      <stop offset="1" stop-color="#0891B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg5)"/>
+  <circle cx="640" cy="100" r="46" fill="#FDE68A" opacity="0.9"/>
+  <rect x="0" y="300" width="800" height="150" fill="url(#water5)" opacity="0.55"/>
+  <polygon points="260,300 420,300 400,220 320,190 280,220" fill="#166534"/>
+  <polygon points="260,300 420,300 400,270 320,250 280,270" fill="#15803D"/>
+  <g fill="#065F46">
+    <rect x="345" y="150" width="16" height="90"/>
+  </g>
+  <g fill="#22C55E">
+    <ellipse cx="353" cy="150" rx="40" ry="14"/>
+    <ellipse cx="330" cy="160" rx="34" ry="12"/>
+    <ellipse cx="376" cy="160" rx="34" ry="12"/>
+  </g>
+  <g fill="#A78BFA" opacity="0.8">
+    <rect x="480" y="255" width="60" height="45"/>
+    <polygon points="475,255 545,255 510,225"/>
+  </g>
+</svg>

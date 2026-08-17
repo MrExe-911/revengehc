@@ -1,0 +1,37 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B0F1F"/>
+      <stop offset="1" stop-color="#1A1206"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg3)"/>
+  <g fill="none" stroke="#F59E0B" stroke-width="14" opacity="0.35">
+    <circle cx="300" cy="220" r="80"/>
+    <circle cx="520" cy="260" r="55"/>
+  </g>
+  <g fill="#F59E0B" opacity="0.9">
+    <g transform="translate(300,220)">
+      <circle r="30" fill="#0B0F1F" stroke="#F59E0B" stroke-width="10"/>
+      <g>
+        <rect x="-6" y="-70" width="12" height="30" rx="3"/>
+        <rect x="-6" y="40" width="12" height="30" rx="3"/>
+        <rect x="-70" y="-6" width="30" height="12" rx="3"/>
+        <rect x="40" y="-6" width="30" height="12" rx="3"/>
+        <rect x="-50" y="-50" width="12" height="28" rx="3" transform="rotate(45)"/>
+        <rect x="-50" y="22" width="12" height="28" rx="3" transform="rotate(-45)"/>
+        <rect x="22" y="-50" width="12" height="28" rx="3" transform="rotate(-45)"/>
+        <rect x="22" y="22" width="12" height="28" rx="3" transform="rotate(45)"/>
+      </g>
+    </g>
+  </g>
+  <g fill="#00E1FF" opacity="0.7">
+    <g transform="translate(520,260) scale(0.7)">
+      <circle r="30" fill="#0B0F1F" stroke="#00E1FF" stroke-width="10"/>
+      <rect x="-6" y="-70" width="12" height="30" rx="3"/>
+      <rect x="-6" y="40" width="12" height="30" rx="3"/>
+      <rect x="-70" y="-6" width="30" height="12" rx="3"/>
+      <rect x="40" y="-6" width="30" height="12" rx="3"/>
+    </g>
+  </g>
+</svg>
