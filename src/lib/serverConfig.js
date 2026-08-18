@@ -1165,8 +1165,14 @@ export const momentTeams = [
   {
     id: "Fotbar",
     label: "Fotbar",
-    icon: "",
+    icon: "Camera",
     logo: "/assets/logo/logo.jpg",
+  },
+  {
+    id: "Random",
+    label: "Random Photos",
+    icon: "Sparkle",
+    logo: "",
   },
   {
     id: "Ilegals",
@@ -1179,20 +1185,20 @@ export const momentTeams = [
 // Contoh foto tim (tidak ikut All Moments kecuali includeInAll: true):
 //   { id: "mo2", team: "development", caption: "...", image: "/assets/moments/2.jpeg", includeInAll: false },
 export const moments = [
+
+
 //FOTBAR
 {
   id: "fotbar_1",
   team: "Fotbar",
-  caption: "We are the Revenge Hardcore family. :)",
-  image: "/assets/moments/fotbar/1.jpeg",
-  includeInAll: true
+  caption: "",
+  image: "/assets/moments/fotbar/1.jpeg"
 },
 {
   id: "fotbar_2",
   team: "Fotbar",
-  caption: "We are the Revenge Hardcore family. :)",
-  image: "/assets/moments/fotbar/2.jpeg",
-  includeInAll: true
+  caption: "",
+  image: "/assets/moments/fotbar/2.jpeg"
 },
 {
   id: "fotbar_3",
@@ -1203,8 +1209,9 @@ export const moments = [
 {
   id: "fotbar_4",
   team: "Fotbar",
-  caption: "",
-  image: "/assets/moments/fotbar/4.jpeg"
+  caption: "We are the Revenge Hardcore family :)",
+  image: "/assets/moments/fotbar/4.jpeg",
+  includeInAll: true
 },
 {
   id: "fotbar_5",
@@ -1227,8 +1234,9 @@ export const moments = [
 {
   id: "fotbar_8",
   team: "Fotbar",
-  caption: "",
-  image: "/assets/moments/fotbar/8.jpeg"
+  caption: "We are the Revenge Hardcore family :)",
+  image: "/assets/moments/fotbar/8.jpeg",
+  includeInAll: true
 },
 {
   id: "fotbar_9",
@@ -1243,22 +1251,51 @@ export const moments = [
   image: "/assets/moments/fotbar/10.jpeg"
 },
 
+
+//RANDOM PHOTOS
+{
+  id: "random_1",
+  team: "Random",
+  caption: "",
+  image: "/assets/moments/random/1.jpeg"
+},
+{
+  id: "random_2",
+  team: "Random",
+  caption: "",
+  image: "/assets/moments/random/2.jpeg"
+},
+{
+  id: "random_3",
+  team: "Random",
+  caption: "",
+  image: "/assets/moments/random/3.jpeg"
+},
+
+
+
+
+
+
+
+
+
 // ILEGALS TEAM 
   {
-  id: "Ilegals_1",
+  id: "ilegals_1",
   team: "Ilegals",
   caption: "We are an illegals team.",
   image: "/assets/moments/ilegals/1.jpeg",
-  includeInAll: true,
+  includeInAll: true
 },
 {
-  id: "Ilegals_2",
+  id: "ilegals_2",
   team: "Ilegals",
   caption: "",
   image: "/assets/moments/ilegals/2.jpeg"
 },
 {
-  id: "Ilegals_3",
+  id: "ilegals_3",
   team: "Ilegals",
   caption: "",
   image: "/assets/moments/ilegals/3.jpeg"
