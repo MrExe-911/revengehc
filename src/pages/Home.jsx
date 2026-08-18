@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Compass, Users, Wifi, Gamepad2, Sparkles, ArrowRight } from "lucide-react";
+import * as Icons from "lucide-react";
 import {
   serverConfig, ranks, voteSites, uiText,
 } from "@/lib/serverConfig";
