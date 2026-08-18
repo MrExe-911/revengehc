@@ -5,6 +5,8 @@
 // panduan lengkap + daftar nama icon/kategori/warna yang tersedia.
 // ============================================================
 
+import { includes } from "lodash";
+
 export const serverConfig = {
   // ---- Info dasar server (tampil di navbar, hero, footer, dsb) ----
   name: "Revenge Hardcore",
@@ -1160,16 +1162,35 @@ export const teamGroups = [{
 // tampil sebagai judul section (logo + nama) sebelum galeri foto tim tersebut.
 export const momentTeams = [
   //   { id: "development", label: "Development Team", icon: "Cpu", logo: "" },
+  {
+    id: "ilegals",
+    label: "Ilegals Team",
+    icon: "Skull",
+    logo: "",
+}
 ];
 
 // Contoh foto tim (tidak ikut All Moments kecuali includeInAll: true):
 //   { id: "mo2", team: "development", caption: "...", image: "/assets/moments/2.jpeg", includeInAll: false },
 export const moments = [{
-  id: "mo1",
-  team: "general",
+  id: "Ilegals_1",
+  team: "Ilegals",
+  caption: "We are an illegal team.",
+  image: "/assets/moments/ilegals/1.jpeg",
+  includeInAll: true,
+},
+{
+  id: "Ilegals_2",
+  team: "Ilegals",
   caption: "",
-  image: "/assets/moments/1.jpeg"
-}, ];
+  image: "/assets/moments/ilegals/2.jpeg"
+},
+{
+  id: "Ilegals_3",
+  team: "Ilegals",
+  caption: "",
+  image: "/assets/moments/ilegals/3.jpeg"
+} ];
 
 // ---- News ----
 export const news = [{
