@@ -16,7 +16,7 @@ const whyPlay = [
   { icon: "Trees", title: "Survival", desc: "Dunia survival vanilla+ dengan tweak modern." },
   { icon: "Coins", title: "Economy", desc: "Auction house, player shop." },
   { icon: "Swords", title: "PvP Arena", desc: "Arena PvP yang bisa di mainkan bersama." },
-  { icon: "Sparkles", title: "Custom Features", desc: "Memiliki berberapa custom Enchant." },
+  { icon: "Skull", title: "Anarchy", desc: "Bebas bermain tanpa banyak batasan dan aturan." },
   { icon: "CalendarHeart", title: "Events", desc: "Rutin mengadakan event untuk semua players." },
   { icon: "Users", title: "Active Community", desc: "Puluhan pemain aktif setiap hari." },
 ];
