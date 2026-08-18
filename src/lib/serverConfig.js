@@ -5,7 +5,6 @@
 // panduan lengkap + daftar nama icon/kategori/warna yang tersedia.
 // ============================================================
 
-import { includes } from "lodash";
 
 export const serverConfig = {
   // ---- Info dasar server (tampil di navbar, hero, footer, dsb) ----
