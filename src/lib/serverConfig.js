@@ -1269,7 +1269,7 @@ export const moments = [
   id: "random_3",
   team: "Random",
   caption: "",
-  image: "/assets/moments/random/3.jpeg"
+  image: "/assets/moments/random/6.jpeg"
 },
 {
   id: "random_4",
