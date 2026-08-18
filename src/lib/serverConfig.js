@@ -26,7 +26,7 @@ export const serverConfig = {
   status: "online",
 
   discordUrl: "https://discord.gg/yqvG4pRwc",
-  youtubeUrl: "https://youtube.com,
+  youtubeUrl: "https://youtube.com",
   tiktokUrl: "https://tiktok.com",
   instagramUrl: "https://instagram.com",
 
