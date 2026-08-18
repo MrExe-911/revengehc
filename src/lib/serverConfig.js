@@ -1163,6 +1163,12 @@ export const teamGroups = [{
 export const momentTeams = [
   //   { id: "development", label: "Development Team", icon: "Cpu", logo: "" },
   {
+    id: "Fotbar",
+    label: "Fotbar",
+    icon: "",
+    logo: "/assets/logo/logo.jpg",
+  },
+  {
     id: "Ilegals",
     label: "Ilegals Team",
     icon: "Skull",
@@ -1173,7 +1179,71 @@ export const momentTeams = [
 // Contoh foto tim (tidak ikut All Moments kecuali includeInAll: true):
 //   { id: "mo2", team: "development", caption: "...", image: "/assets/moments/2.jpeg", includeInAll: false },
 export const moments = [
-  // ILEGALS TEAM 
+//FOTBAR
+{
+  id: "fotbar_1",
+  team: "Fotbar",
+  caption: "We are the Revenge Hardcore family. :)",
+  image: "/assets/moments/fotbar/1.jpeg",
+  includeInAll: true
+},
+{
+  id: "fotbar_2",
+  team: "Fotbar",
+  caption: "We are the Revenge Hardcore family. :)",
+  image: "/assets/moments/fotbar/2.jpeg",
+  includeInAll: true
+},
+{
+  id: "fotbar_3",
+  team: "Fotbar",
+  caption: "",
+  image: "/assets/moments/fotbar/3.jpeg"
+},
+{
+  id: "fotbar_4",
+  team: "Fotbar",
+  caption: "",
+  image: "/assets/moments/fotbar/4.jpeg"
+},
+{
+  id: "fotbar_5",
+  team: "Fotbar",
+  caption: "",
+  image: "/assets/moments/fotbar/5.jpeg"
+},
+{
+  id: "fotbar_6",
+  team: "Fotbar",
+  caption: "",
+  image: "/assets/moments/fotbar/6.jpeg"
+},
+{
+  id: "fotbar_7",
+  team: "Fotbar",
+  caption: "",
+  image: "/assets/moments/fotbar/7.jpeg"
+},
+{
+  id: "fotbar_8",
+  team: "Fotbar",
+  caption: "",
+  image: "/assets/moments/fotbar/8.jpeg"
+},
+{
+  id: "fotbar_9",
+  team: "Fotbar",
+  caption: "",
+  image: "/assets/moments/fotbar/9.jpeg"
+},
+{
+  id: "fotbar_10",
+  team: "Fotbar",
+  caption: "",
+  image: "/assets/moments/fotbar/10.jpeg"
+},
+
+// ILEGALS TEAM 
   {
   id: "Ilegals_1",
   team: "Ilegals",
@@ -1193,70 +1263,6 @@ export const moments = [
   caption: "",
   image: "/assets/moments/ilegals/3.jpeg"
 },
-
-
-//FOTBAR
-{
-  id: "fotbar_1",
-  team: "general",
-  caption: "",
-  image: "/assets/moments/fotbar/1.jpeg"
-},
-{
-  id: "fotbar_2",
-  team: "general",
-  caption: "",
-  image: "/assets/moments/fotbar/2.jpeg"
-},
-{
-  id: "fotbar_3",
-  team: "general",
-  caption: "",
-  image: "/assets/moments/fotbar/3.jpeg"
-},
-{
-  id: "fotbar_4",
-  team: "general",
-  caption: "",
-  image: "/assets/moments/fotbar/4.jpeg"
-},
-{
-  id: "fotbar_5",
-  team: "general",
-  caption: "",
-  image: "/assets/moments/fotbar/5.jpeg"
-},
-{
-  id: "fotbar_6",
-  team: "general",
-  caption: "",
-  image: "/assets/moments/fotbar/6.jpeg"
-},
-{
-  id: "fotbar_7",
-  team: "general",
-  caption: "",
-  image: "/assets/moments/fotbar/7.jpeg"
-},
-{
-  id: "fotbar_8",
-  team: "general",
-  caption: "",
-  image: "/assets/moments/fotbar/8.jpeg"
-},
-{
-  id: "fotbar_9",
-  team: "general",
-  caption: "",
-  image: "/assets/moments/fotbar/9.jpeg"
-},
-{
-  id: "fotbar_10",
-  team: "general",
-  caption: "",
-  image: "/assets/moments/fotbar/10.jpeg"
-},
-
 
 ];
 
