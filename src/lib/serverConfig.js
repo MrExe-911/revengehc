@@ -1421,7 +1421,7 @@ export const faq = [{
       },
       {
         q: "Apakah pembayaran bisa di refund?",
-        a: "Refund berlaku jika rank belum dikirim. Hubungi support untuk detail."
+        a: "Mohon maaf, pembayaran yang telah dilakukan tidak dapat di-refund."
       },
     ]
   },
