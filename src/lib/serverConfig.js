@@ -1265,12 +1265,12 @@ export const moments = [
   caption: "",
   image: "/assets/moments/random/2.jpeg"
 },
-{
-  id: "random_3",
-  team: "Random",
-  caption: "",
-  image: "/assets/moments/random/3.jpeg"
-},
+// {
+//   id: "random_3",
+//   team: "Random",
+//   caption: "",
+//   image: "/assets/moments/random/3.jpeg"
+// },
 {
   id: "random_4",
   team: "Random",
