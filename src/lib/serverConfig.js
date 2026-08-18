@@ -1171,7 +1171,7 @@ export const momentTeams = [
   {
     id: "Random",
     label: "Random Photos",
-    icon: "Sparkle",
+    icon: "Sparkles",
     logo: "",
   },
   {
@@ -1270,6 +1270,18 @@ export const moments = [
   team: "Random",
   caption: "",
   image: "/assets/moments/random/3.jpeg"
+},
+{
+  id: "random_4",
+  team: "Random",
+  caption: "",
+  image: "/assets/moments/random/4.jpeg"
+},
+{
+  id: "random_5",
+  team: "Random",
+  caption: "",
+  image: "/assets/moments/random/5.jpeg"
 },
 
 
