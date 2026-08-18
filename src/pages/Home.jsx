@@ -116,19 +116,39 @@ export default function Home() {
       </section>
 
       {/* WHY PLAY */}
-      <Section kicker={uiText.whyPlay.kicker} title={uiText.whyPlay.title} subtitle={uiText.whyPlay.subtitle}>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {whyPlay.map((c) => (
-            <motion.div key={c.title} initial="hidden" whileInView="show" viewport={{ once: true }} variants={fade}
-              className="group rounded-2xl glass p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-primary/30">
+      <Section
+      kicker={uiText.whyPlay.kicker}
+      title={uiText.whyPlay.title}
+      subtitle={uiText.whyPlay.subtitle}
+      >
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {whyPlay.map((c) => {
+          const Icon = Icons[c.icon] || Icons.Sparkles;
+
+          return (
+            <motion.div
+              key={c.title}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true }}
+              variants={fade}
+              className="group rounded-2xl glass p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-primary/30"
+            >
               <span className="grid place-items-center w-12 h-12 rounded-xl bg-primary/10 text-primary mb-4 group-hover:scale-110 transition-transform">
-                <Sparkles className="w-6 h-6" />
+                <Icon className="w-6 h-6" />
               </span>
-              <h3 className="pixel text-lg font-bold text-white">{c.title}</h3>
-              <p className="text-sm text-muted-foreground mt-1.5">{c.desc}</p>
+
+              <h3 className="pixel text-lg font-bold text-white">
+                {c.title}
+              </h3>
+
+              <p className="text-sm text-muted-foreground mt-1.5">
+                {c.desc}
+              </p>
             </motion.div>
-          ))}
-        </div>
+          );
+        })}
+      </div>
       </Section>
 
       {/* STORE PREVIEW */}
