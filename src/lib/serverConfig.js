@@ -1163,7 +1163,7 @@ export const teamGroups = [{
 export const momentTeams = [
   //   { id: "development", label: "Development Team", icon: "Cpu", logo: "" },
   {
-    id: "ilegals",
+    id: "Ilegals",
     label: "Ilegals Team",
     icon: "Skull",
     logo: "",
