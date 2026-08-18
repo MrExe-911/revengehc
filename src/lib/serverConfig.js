@@ -252,7 +252,7 @@ export const uiText = {
     title: "Vote & Rewards",
     subtitle: "Vote di situs-situs berikut untuk membantu server naik ranking dan klaim hadiahnya.",
     howItWorksTitle: "Cara Klaim Reward",
-    howItWorksDesc: "Vote dilakukan melalui website pihak ketiga, bukan di sini. Klik tombol Vote pada salah satu situs di bawah, lalu gunakan username Minecraft-mu untuk melakukan vote. Setelah vote terverifikasi, reward akan otomatis dikirim ke akun in-game. \n\nCatatan: Untuk pemain Bedrock Edition, gunakan username dengan tambahan tanda titik (.) di depan username."",
+    howItWorksDesc: "Vote dilakukan melalui website pihak ketiga, bukan di sini. Klik tombol Vote pada salah satu situs di bawah, lalu gunakan username Minecraft-mu untuk melakukan vote. Setelah vote terverifikasi, reward akan otomatis dikirim ke akun in-game. \n\nCatatan: Untuk pemain Bedrock Edition, gunakan username dengan tambahan tanda titik (.) di depan username.",
     voteSiteCta: "Vote di Situs Ini",
     topVoterKicker: "Leaderboard",
     topVoterTitle: "Top Voters Bulan Ini",
