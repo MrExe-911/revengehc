@@ -7,8 +7,8 @@ import Section, { SectionHeading } from "@/components/Section";
 import { useServerStatus } from "@/hooks/useServerStatus";
 
 const features = [
-  "Survival", "Economy", "Jobs", "Land Claim", "Custom Enchants", "PvP",
-  "Events", "Quests", "Crates", "Player Shops", "Auction House", "Ranks",
+  "Survival", "Economy", "Custom Enchants", "PvP",
+  "Events", "Player Shops", "Auction House", "Ranks",
 ];
 
 const steps = [

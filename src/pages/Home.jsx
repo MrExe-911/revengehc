@@ -13,11 +13,11 @@ import DiscordIcon from "@/components/DiscordIcon";
 
 const whyPlay = [
   { icon: "Trees", title: "Survival", desc: "Dunia survival vanilla+ dengan tweak modern." },
-  { icon: "Coins", title: "Economy", desc: "Auction house, player shop & jobs." },
-  { icon: "Swords", title: "PvP Arena", desc: "Arena PvP seimbang & turnamen rutin." },
-  { icon: "Sparkles", title: "Custom Features", desc: "Enchant, dungeon & quest eksklusif." },
-  { icon: "CalendarHeart", title: "Events", desc: "Event mingguan dengan hadiah besar." },
-  { icon: "Users", title: "Active Community", desc: "Ribuan pemain aktif setiap hari." },
+  { icon: "Coins", title: "Economy", desc: "Auction house, player shop." },
+  { icon: "Swords", title: "PvP Arena", desc: "Arena PvP yang bisa di mainkan bersama." },
+  { icon: "Sparkles", title: "Custom Features", desc: "Memiliki berberapa custom Enchant." },
+  { icon: "CalendarHeart", title: "Events", desc: "Rutin mengadakan event untuk semua players." },
+  { icon: "Users", title: "Active Community", desc: "Puluhan pemain aktif setiap hari." },
 ];
 
 const fade = { hidden: { opacity: 0, y: 24 }, show: { opacity: 1, y: 0, transition: { duration: 0.6 } } };

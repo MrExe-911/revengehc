@@ -26,9 +26,9 @@ export const serverConfig = {
   status: "online",
 
   discordUrl: "https://discord.gg/yqvG4pRwc",
-  youtubeUrl: "https://youtube.com/@revengehardcore",
-  tiktokUrl: "https://tiktok.com/@revengehardcore",
-  instagramUrl: "https://instagram.com/revengehardcore",
+  youtubeUrl: "https://youtube.com,
+  tiktokUrl: "https://tiktok.com",
+  instagramUrl: "https://instagram.com",
 
   // ---- Kontak untuk pembelian (dipakai tombol "Order via WhatsApp/Discord") ----
   // Nomor WhatsApp format internasional, TANPA tanda "+" dan tanpa "0" di depan.
@@ -253,7 +253,8 @@ export const uiText = {
     title: "Vote & Rewards",
     subtitle: "Vote di situs-situs berikut untuk membantu server naik ranking dan klaim hadiahnya.",
     howItWorksTitle: "Cara Klaim Reward",
-    howItWorksDesc: "Vote dilakukan di website pihak ketiga (bukan di sini). Klik tombol Vote pada salah satu situs di bawah, vote menggunakan username Minecraft-mu, lalu reward otomatis terkirim ke akun in-game setelah vote terverifikasi.",
+    howItWorksDesc: ```Vote dilakukan melalui website pihak ketiga, bukan di sini. Klik tombol Vote pada salah satu situs di bawah, lalu gunakan username Minecraft-mu untuk melakukan vote. Setelah vote terverifikasi, reward akan otomatis dikirim ke akun in-game. 
+    Catatan: Untuk pemain Bedrock Edition, gunakan username dengan tambahan tanda titik (.) di depan username.```,
     voteSiteCta: "Vote di Situs Ini",
     topVoterKicker: "Leaderboard",
     topVoterTitle: "Top Voters Bulan Ini",
@@ -825,7 +826,7 @@ export const ranks = [{
     name: "Sovereign",
     colorKey: "gold",
     category: "GODLIKE",
-    price: 500000,
+    price: 400000,
     discount: 0,
     icon: "Gem",
     description: "Tahta tertinggi Revenge Hardcore. Sovereign adalah rank paling eksklusif — nickname berwarna emas, kekuatan hampir tanpa batas, dan hak istimewa yang tidak dimiliki rank manapun di bawahnya.",
@@ -1316,46 +1317,47 @@ export const moments = [
 ];
 
 // ---- News ----
-export const news = [{
-    id: "n1",
-    title: "Patch 1.21.4: Sistem Quest Baru & Dungeon Crystal",
-    category: "Update",
-    date: "2026-08-06",
-    author: "NoctisDev",
-    excerpt: "Update terbaru membawa sistem quest berjenjang, dungeon baru dengan boss Crystal Warden, dan rebalance ekonomi.",
-    image: "/assets/news/patch-dungeon.svg",
-    content: "Update 1.21.4 hadir dengan sistem quest berjenjang yang memungkinkan pemain menyelesaikan misi harian dan mingguan untuk mendapatkan reward eksklusif. Dungeon Crystal baru menampilkan boss Crystal Warden dengan mekanik unik. Selain itu, kami melakukan rebalance ekonomi untuk menjaga stabilitas pasar auction house.",
-  },
-  {
-    id: "n2",
-    title: "Event Cyber City: Balapan Elytra di Kota Neon",
-    category: "Event",
-    date: "2026-08-03",
-    author: "SoraMedia",
-    excerpt: "Ajang balapan Elytra di distrik cyberpunk kota server. Total hadiah jutaan koin & rank eksklusif.",
-    image: "/assets/news/neon-race.svg",
-    content: "Bersiaplah untuk Event Cyber City! Balapan Elytra melintasi kota neon yang futuristik. Pemenang akan mendapatkan hadiah jutaan koin in-game, rank eksklusif, dan Trophy Crystal. Pendaftaran dibuka di Discord.",
-  },
-  {
-    id: "n3",
-    title: "Maintenance Terjadwal: Optimalisasi Performa Server",
-    category: "Maintenance",
-    date: "2026-08-09",
-    author: "Vexarion",
-    excerpt: "Server akan masuk maintenance singkat untuk upgrade hardware & optimasi chunk loading.",
-    image: "/assets/news/maintenance.svg",
-    content: "Untuk meningkatkan pengalaman bermain, kami akan melakukan maintenance terjadwal pada 10 Agustus 2026 pukul 03.00 WIB. Durasi diperkirakan 2 jam. Setelahnya, performa chunk loading akan jauh lebih cepat dan kapasitas pemain meningkat.",
-  },
-  {
-    id: "n4",
-    title: "Pengumuman: Turnamen PvP Seasons Finals",
-    category: "Announcement",
-    date: "2026-07-28",
-    author: "Fenrir",
-    excerpt: "Finals turnamen PvP musim ini akan digelar akhir bulan. Total prizepool Rp 5.000.000.",
-    image: "/assets/news/pvp-arena.svg",
-    content: "Seasons Finals turnamen PvP akan segera dimulai! 16 pemain terbaik akan bertanding di arena custom. Total prizepool mencapai Rp 5.000.000 plus rank Titan untuk juara umum. Saksikan langsung di kanal YouTube kami.",
-  },
+export const news = [
+  // {
+  //   id: "n1",
+  //   title: "Patch 1.21.4: Sistem Quest Baru & Dungeon Crystal",
+  //   category: "Update",
+  //   date: "2026-08-06",
+  //   author: "NoctisDev",
+  //   excerpt: "Update terbaru membawa sistem quest berjenjang, dungeon baru dengan boss Crystal Warden, dan rebalance ekonomi.",
+  //   image: "/assets/news/patch-dungeon.svg",
+  //   content: "Update 1.21.4 hadir dengan sistem quest berjenjang yang memungkinkan pemain menyelesaikan misi harian dan mingguan untuk mendapatkan reward eksklusif. Dungeon Crystal baru menampilkan boss Crystal Warden dengan mekanik unik. Selain itu, kami melakukan rebalance ekonomi untuk menjaga stabilitas pasar auction house.",
+  // },
+  // {
+  //   id: "n2",
+  //   title: "Event Cyber City: Balapan Elytra di Kota Neon",
+  //   category: "Event",
+  //   date: "2026-08-03",
+  //   author: "SoraMedia",
+  //   excerpt: "Ajang balapan Elytra di distrik cyberpunk kota server. Total hadiah jutaan koin & rank eksklusif.",
+  //   image: "/assets/news/neon-race.svg",
+  //   content: "Bersiaplah untuk Event Cyber City! Balapan Elytra melintasi kota neon yang futuristik. Pemenang akan mendapatkan hadiah jutaan koin in-game, rank eksklusif, dan Trophy Crystal. Pendaftaran dibuka di Discord.",
+  // },
+  // {
+  //   id: "n3",
+  //   title: "Maintenance Terjadwal: Optimalisasi Performa Server",
+  //   category: "Maintenance",
+  //   date: "2026-08-09",
+  //   author: "Vexarion",
+  //   excerpt: "Server akan masuk maintenance singkat untuk upgrade hardware & optimasi chunk loading.",
+  //   image: "/assets/news/maintenance.svg",
+  //   content: "Untuk meningkatkan pengalaman bermain, kami akan melakukan maintenance terjadwal pada 10 Agustus 2026 pukul 03.00 WIB. Durasi diperkirakan 2 jam. Setelahnya, performa chunk loading akan jauh lebih cepat dan kapasitas pemain meningkat.",
+  // },
+  // {
+  //   id: "n4",
+  //   title: "Pengumuman: Turnamen PvP Seasons Finals",
+  //   category: "Announcement",
+  //   date: "2026-07-28",
+  //   author: "Fenrir",
+  //   excerpt: "Finals turnamen PvP musim ini akan digelar akhir bulan. Total prizepool Rp 5.000.000.",
+  //   image: "/assets/news/pvp-arena.svg",
+  //   content: "Seasons Finals turnamen PvP akan segera dimulai! 16 pemain terbaik akan bertanding di arena custom. Total prizepool mencapai Rp 5.000.000 plus rank Titan untuk juara umum. Saksikan langsung di kanal YouTube kami.",
+  // },
 ];
 
 export const newsCategories = ["Update", "Announcement", "Event", "Maintenance", "Development"];
@@ -1365,7 +1367,7 @@ export const newsCategories = ["Update", "Announcement", "Event", "Maintenance",
 export const voteSites = [{
   id: "v1",
   name: "Minecraft-MP",
-  reward: "$50.000 + 1 Vote Key",
+  reward: "$50.000 + 3 Vote Key",
   cooldownHours: 24,
   url: "https://minecraft-mp.com/server/361765/vote/"
 }, ];
@@ -1376,11 +1378,7 @@ export const voteRewards = [{
   },
   {
     icon: "Key",
-    label: "1x Vote Key"
-  },
-  {
-    icon: "Gift",
-    label: "10 Claimblock"
+    label: "3x Vote Key"
   },
 ];
 
@@ -1409,11 +1407,11 @@ export const faq = [{
     category: "Account",
     items: [{
         q: "Bagaimana mendaftar akun?",
-        a: "Akun otomatis dibuat saat pertama login. Login premium direkomendasikan untuk keamanan."
+        a: "Gunakan `/register <password> <password>` untuk mendaftarkan akun. Jika sudah terdaftar, gunakan `/login <password>` untuk masuk."
       },
       {
         q: "Saya lupa password, bagaimana?",
-        a: "Gunakan fitur reset di situs atau hubungi staff melalui Discord."
+        a: "Hubungi staff melalui Whatsapp atau Discord."
       },
     ]
   },
@@ -1454,7 +1452,7 @@ export const faq = [{
     category: "Punishment",
     items: [{
       q: "Cara mengajukan banding ban?",
-      a: "Buka tiket di Discord dengan format appeal, staff akan meninjau dalam 48 jam."
+      a: "Buka tiket di Discord atau hubungi staff di Whatsapp, staff akan meninjau dalam 48 jam."
     }, ]
   },
 ];
@@ -1470,6 +1468,7 @@ export const rules = [{
       "03. No Exploiting Bugs — wajib melaporkan bug, dilarang menyalahgunakannya.",
       "04. No Advertising — dilarang mempromosikan server lain.",
       "05. No Toxic Behavior — jaga suasana komunitas tetap sehat.",
+      "06. No Duplication — dilarang melakukan dupe untuk item apapun."
     ]
   },
   {
@@ -1483,9 +1482,9 @@ export const rules = [{
   {
     category: "Gameplay Rules",
     items: [
-      "01. Dilarang griefing claim milik pemain lain.",
-      "02. Dilarang mencuri item dari unprotected area aktif.",
-      "03. Farming AFK melebihi batas akan direset.",
+      "01. Dilarang membunuh player baru.",
+      "02. Farming AFK melebihi batas akan direset.",
+      "03. Staff berhak mengambil tindakan terhadap tindakan yang merugikan pemain lain meskipun belum tercantum secara spesifik dalam peraturan."
     ]
   },
   {
@@ -1493,7 +1492,7 @@ export const rules = [{
     items: [
       "01. PvP hanya di zona yang ditentukan.",
       "02. Dilarang combat logging.",
-      "03. Targeting pemain baru secara berulang dilarang.",
+      "03. Targeting pemain baru dilarang.",
     ]
   },
   {
@@ -1501,7 +1500,7 @@ export const rules = [{
     items: [
       "01. Dilarang duplikasi item atau uang.",
       "02. Harga bebas, namun scam dilarang keras.",
-      "03. Real Money Trading (RMT) di luar store resmi dilarang.",
+      "03. Real Money Trading (RMT) dilarang.",
     ]
   },
   {
@@ -1521,29 +1520,30 @@ export const rules = [{
 // isi "registerWhatsappText" per-event untuk pesan pembuka custom.
 export const defaultEventRegisterVia = "discord"; // "discord" | "whatsapp"
 
-export const events = [{
-    id: "ev1",
-    title: "Summer Survival Event",
-    date: "2026-08-15",
-    prize: "Rp 2.000.000 + Rank Astra",
-    participants: 128,
-    image: "/assets/events/survival-island.svg",
-    description: "Event bertahan hidup musim panas di pulau tropis custom. Kumpulkan resource, bangun base, dan jadi tim terkuat.",
-    content: "Summer Survival Event mengajak seluruh pemain untuk bertahan hidup di pulau tropis custom yang dirancang khusus untuk musim panas ini. Kumpulkan resource langka, bangun base pertahanan, dan bentuk aliansi dengan pemain lain untuk bertahan dari tantangan lingkungan dan mob custom yang muncul.\n\nTim dengan waktu bertahan terlama dan base terkuat akan dinilai oleh staff berdasarkan kreativitas, ketahanan, dan kerja sama tim. Pastikan untuk mendaftar lewat Discord sebelum event dimulai agar timmu tercatat di leaderboard resmi.\n\nHadiah utama berupa Rp 2.000.000 plus Rank Astra akan diberikan ke tim juara, dengan hadiah hiburan untuk runner-up. Event ini terbuka untuk semua pemain aktif, baik solo maupun tim hingga 4 orang.",
-    registerVia: "discord"
-  },
-  {
-    id: "ev2",
-    title: "Crystal Dungeon Raid",
-    date: "2026-08-20",
-    prize: "Crystal Crate + $1.000.000",
-    participants: 64,
-    image: "/assets/news/patch-dungeon.svg",
-    description: "Raid dungeon baru dengan boss Crystal Warden. Tim 4 pemain, first clear mendapat hadiah spesial.",
-    content: "Dungeon baru Crystal Dungeon Raid menghadirkan boss custom Crystal Warden dengan mekanik serangan bertahap dan fase-fase unik yang menuntut kerja sama tim yang solid. Bentuk tim berisi 4 pemain untuk menantang dungeon ini bersama-sama.\n\nSetiap fase boss memiliki mekanik berbeda — mulai dari serangan area, summon minion, hingga fase enrage di akhir pertarungan. Tim yang berhasil melakukan first clear akan tercatat di hall of fame server dan mendapatkan hadiah spesial.\n\nHadiah mencakup Crystal Crate eksklusif dan $1.000.000 in-game money untuk tim first clear, dengan reward tambahan untuk seluruh peserta yang berhasil menyelesaikan dungeon selama periode event berlangsung.",
-    registerVia: "whatsapp",
-    registerWhatsappText: "Halo, saya mau daftar tim untuk Crystal Dungeon Raid!"
-  },
+export const events = [
+  // {
+  //   id: "ev1",
+  //   title: "Summer Survival Event",
+  //   date: "2026-08-15",
+  //   prize: "Rp 2.000.000 + Rank Astra",
+  //   participants: 128,
+  //   image: "/assets/events/survival-island.svg",
+  //   description: "Event bertahan hidup musim panas di pulau tropis custom. Kumpulkan resource, bangun base, dan jadi tim terkuat.",
+  //   content: "Summer Survival Event mengajak seluruh pemain untuk bertahan hidup di pulau tropis custom yang dirancang khusus untuk musim panas ini. Kumpulkan resource langka, bangun base pertahanan, dan bentuk aliansi dengan pemain lain untuk bertahan dari tantangan lingkungan dan mob custom yang muncul.\n\nTim dengan waktu bertahan terlama dan base terkuat akan dinilai oleh staff berdasarkan kreativitas, ketahanan, dan kerja sama tim. Pastikan untuk mendaftar lewat Discord sebelum event dimulai agar timmu tercatat di leaderboard resmi.\n\nHadiah utama berupa Rp 2.000.000 plus Rank Astra akan diberikan ke tim juara, dengan hadiah hiburan untuk runner-up. Event ini terbuka untuk semua pemain aktif, baik solo maupun tim hingga 4 orang.",
+  //   registerVia: "discord"
+  // },
+  // {
+  //   id: "ev2",
+  //   title: "Crystal Dungeon Raid",
+  //   date: "2026-08-20",
+  //   prize: "Crystal Crate + $1.000.000",
+  //   participants: 64,
+  //   image: "/assets/news/patch-dungeon.svg",
+  //   description: "Raid dungeon baru dengan boss Crystal Warden. Tim 4 pemain, first clear mendapat hadiah spesial.",
+  //   content: "Dungeon baru Crystal Dungeon Raid menghadirkan boss custom Crystal Warden dengan mekanik serangan bertahap dan fase-fase unik yang menuntut kerja sama tim yang solid. Bentuk tim berisi 4 pemain untuk menantang dungeon ini bersama-sama.\n\nSetiap fase boss memiliki mekanik berbeda — mulai dari serangan area, summon minion, hingga fase enrage di akhir pertarungan. Tim yang berhasil melakukan first clear akan tercatat di hall of fame server dan mendapatkan hadiah spesial.\n\nHadiah mencakup Crystal Crate eksklusif dan $1.000.000 in-game money untuk tim first clear, dengan reward tambahan untuk seluruh peserta yang berhasil menyelesaikan dungeon selama periode event berlangsung.",
+  //   registerVia: "whatsapp",
+  //   registerWhatsappText: "Halo, saya mau daftar tim untuk Crystal Dungeon Raid!"
+  // },
 ];
 
 // ---- Helpers ----
