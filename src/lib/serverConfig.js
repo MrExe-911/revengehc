@@ -1172,10 +1172,12 @@ export const momentTeams = [
 
 // Contoh foto tim (tidak ikut All Moments kecuali includeInAll: true):
 //   { id: "mo2", team: "development", caption: "...", image: "/assets/moments/2.jpeg", includeInAll: false },
-export const moments = [{
+export const moments = [
+  // ILEGALS TEAM 
+  {
   id: "Ilegals_1",
   team: "Ilegals",
-  caption: "We are an illegal team.",
+  caption: "We are an illegals team.",
   image: "/assets/moments/ilegals/1.jpeg",
   includeInAll: true,
 },
@@ -1190,7 +1192,73 @@ export const moments = [{
   team: "Ilegals",
   caption: "",
   image: "/assets/moments/ilegals/3.jpeg"
-} ];
+},
+
+
+//FOTBAR
+{
+  id: "fotbar_1",
+  team: "general",
+  caption: "",
+  image: "/assets/moments/fotbar/1.jpeg"
+},
+{
+  id: "fotbar_2",
+  team: "general",
+  caption: "",
+  image: "/assets/moments/fotbar/2.jpeg"
+},
+{
+  id: "fotbar_3",
+  team: "general",
+  caption: "",
+  image: "/assets/moments/fotbar/3.jpeg"
+},
+{
+  id: "fotbar_4",
+  team: "general",
+  caption: "",
+  image: "/assets/moments/fotbar/4.jpeg"
+},
+{
+  id: "fotbar_5",
+  team: "general",
+  caption: "",
+  image: "/assets/moments/fotbar/5.jpeg"
+},
+{
+  id: "fotbar_6",
+  team: "general",
+  caption: "",
+  image: "/assets/moments/fotbar/6.jpeg"
+},
+{
+  id: "fotbar_7",
+  team: "general",
+  caption: "",
+  image: "/assets/moments/fotbar/7.jpeg"
+},
+{
+  id: "fotbar_8",
+  team: "general",
+  caption: "",
+  image: "/assets/moments/fotbar/8.jpeg"
+},
+{
+  id: "fotbar_9",
+  team: "general",
+  caption: "",
+  image: "/assets/moments/fotbar/9.jpeg"
+},
+{
+  id: "fotbar_10",
+  team: "general",
+  caption: "",
+  image: "/assets/moments/fotbar/10.jpeg"
+},
+
+
+];
 
 // ---- News ----
 export const news = [{
