@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Compass, Users, Wifi, Gamepad2, Sparkles, ArrowRight } from "lucide-react";
-import * as Icons from "lucide-react";
 import {
   serverConfig, ranks, voteSites, uiText,
 } from "@/lib/serverConfig";
 import CopyIPButton from "@/components/CopyIPButton";
 import PlayNowButton from "@/components/PlayNowButton";
 import RankCard from "@/components/store/RankCard";
+import Icon from "@/components/Icon";
 import Section from "@/components/Section";
 import { useServerStatus } from "@/hooks/useServerStatus";
 import DiscordIcon from "@/components/DiscordIcon";
@@ -16,7 +16,7 @@ const whyPlay = [
   { icon: "Trees", title: "Survival", desc: "Dunia survival vanilla+ dengan tweak modern." },
   { icon: "Coins", title: "Economy", desc: "Auction house, player shop." },
   { icon: "Swords", title: "PvP Arena", desc: "Arena PvP yang bisa di mainkan bersama." },
-  { icon: "Skull", title: "Anarchy", desc: "Bebas bermain tanpa banyak batasan dan aturan." },
+  { icon: "Sparkles", title: "Custom Features", desc: "Memiliki berberapa custom Enchant." },
   { icon: "CalendarHeart", title: "Events", desc: "Rutin mengadakan event untuk semua players." },
   { icon: "Users", title: "Active Community", desc: "Puluhan pemain aktif setiap hari." },
 ];
@@ -124,8 +124,6 @@ export default function Home() {
       >
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {whyPlay.map((c) => {
-          const Icon = Icons[c.icon] || Icons.Sparkles;
-
           return (
             <motion.div
               key={c.title}
@@ -136,7 +134,7 @@ export default function Home() {
               className="group rounded-2xl glass p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-primary/30"
             >
               <span className="grid place-items-center w-12 h-12 rounded-xl bg-primary/10 text-primary mb-4 group-hover:scale-110 transition-transform">
-                <Icon className="w-6 h-6" />
+                <Icon name={c.icon} className="w-6 h-6" />
               </span>
 
               <h3 className="pixel text-lg font-bold text-white">
